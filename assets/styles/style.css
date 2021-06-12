@@ -1,16 +1,16 @@
-/*!
- * Bootstrap v5.0.1 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+/* body * {
+  color: #9b9ca0; 
 
-.color-scheme-1 {
-  color: #8a7147 !important;
+} */
+
+.custom-color-primary,
+h4 {
+  color: #ceb183;
 }
 
-.color-scheme-2 {
-  color: #f7f8fa;
+.custom-color-secondary,
+h5 {
+  color: #917b62;
 }
 
 .bg-color-scheme-2 {
@@ -20,6 +20,23 @@
 
 .box-round {
   border-radius: 10px;
+}
+
+.extra-padding {
+  padding: 5px 0 0 0;
+}
+
+.inner-block.p-2.d-flex {
+  flex-direction: column;
+  align-items: center;
+}
+
+#brand-block p {
+  margin: 0;
+}
+
+.inner-block.p-2.d-flex p {
+  text-align: center;
 }
 
 .icon-header {
@@ -32,6 +49,18 @@
   background: transparent !important;
   border: 0 !important;
 }
+
+#brand-block {
+  max-height: 600px;
+}
+
+
+/*!
+ * Bootstrap v5.0.1 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
 
 :root {
   --bs-blue: #0d6efd;

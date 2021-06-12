@@ -7,7 +7,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Loreal Dashboard</title>
 	<link rel="stylesheet" href="assets/styles/style.css">
-	<script data-main="scripts/main" src="assets/js/require.js"></script>
 </head>
 
 <body>
@@ -15,10 +14,10 @@
 
 		<div class="container-lg">
 			<div class="row">
-				<div class="col-2 border-end align-items-center d-flex">
+				<div class="col-md-2 border-end align-items-center d-flex">
 					<img src="./assets/images/Loreal Pakistan Logo.png" class="img-fluid" alt="L'Oreal pakistan">
 				</div>
-				<div class="col-3 border-end align-items-center d-flex">
+				<div class="col-md-3 border-end align-items-center d-flex">
 
 					<div class="input-group mb-3">
 						<span class="input-group-text made-transparent" id="basic-addon1"><svg
@@ -31,37 +30,37 @@
 							aria-label="Username" aria-describedby="basic-addon1">
 					</div>
 				</div>
-				<div class="col-4 border-end align-items-center d-flex">
+				<div class="col-md-4 border-end align-items-center d-flex">
 					<ul class="nav align-items-center">
 						<li class="nav-item">
-							<a class="nav-link color-scheme-1 active" aria-current="page" href="#">Dashboard</a>
+							<a class="nav-link custom-color-primary active" aria-current="page" href="#">Dashboard</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link color-scheme-1" href="#">Report</a>
+							<a class="nav-link custom-color-primary" href="#">Report</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link color-scheme-1" href="#">User Accounts</a>
+							<a class="nav-link custom-color-primary" href="#">User Accounts</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link color-scheme-1" href="#">Profile</a>
+							<a class="nav-link custom-color-primary" href="#">Profile</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link color-scheme-1" href="#">Logout</a>
+							<a class="nav-link custom-color-primary" href="#">Logout</a>
 						</li>
 					</ul>
 				</div>
-				<div class="col-2 border-end align-items-center d-flex">
+				<div class="col-md-2 border-end align-items-center d-flex">
 					<div class="row align-items-center d-flex">
-						<div class="col-8">
+						<div class="col-md-8">
 							<div class="text-wrap"><span>Welcome, </span><span id="username">Admin</span></div>
-							<div class="color-scheme-1">Noman Shahid</div>
+							<div class="custom-color-primary">Noman Shahid</div>
 						</div>
-						<div class="col-4">
+						<div class="col-md-4">
 							<img src="./assets/images/user placeholder.png" class="img-fluid" alt="user placeholder">
 						</div>
 					</div>
 				</div>
-				<div class="col-1 align-items-center d-flex made-transparent">
+				<div class="col-md-1 align-items-center d-flex made-transparent">
 					<div class="">
 						<svg class="icon-header" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
 							fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
@@ -75,51 +74,56 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid bg-color-scheme-2">
+	<div class="container-fluid bg-color-scheme-2 py-3">
 		<div class="container-lg">
 			<div class="row">
-				<div class="col-6">
-					<div class="row box-round bg-white p-2 mb-2">
-						<div class="d-flex justify-content-between">
-							<h5>Overview</h5>
+				<div class="col-md-6 main-columns">
+					<div id="brand-overview" class="col box-round bg-white px-4 py-2 mb-3">
+						<div class="d-flex justify-content-between pb-2">
+							<h6 class="extra-padding">Overview</h6>
 							<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
 									class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
 									<path
 										d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
 								</svg></span>
 						</div>
-						<div class="row justify-content-around">
-							<div class="col-2 box-round bg-color-scheme-2">
-								<h4>100k</h4>
-								<p>No. Of contacts</p>
+						<div class="d-flex justify-content-around">
+							<div class="col-md-2 box-round bg-color-scheme-2">
+								<div class="inner-block p-2 d-flex mx-1">
+									<h4>100k</h4>
+									<p>No. Of contacts</p>
+								</div>
 							</div>
-							<div class="col-2 box-round bg-color-scheme-2">
-								<h4>20</h4>
-								<p>No. Of cities</p>
+							<div class="col-md-2 box-round bg-color-scheme-2">
+								<div class="inner-block p-2 d-flex mx-1">
+									<h4>20</h4>
+									<p>No. Of cities</p>
+								</div>
 							</div>
-							<div class="col-2 box-round bg-color-scheme-2">
-								<h4>50k</h4>
-								<p>No. Of products</p>
+							<div class="col-md-2 box-round bg-color-scheme-2">
+								<div class="inner-block p-2 d-flex mx-1">
+									<h4>50k</h4>
+									<p>No. Of products</p>
+								</div>
 							</div>
-							<div class="col-2 box-round bg-color-scheme-2">
-								<h4>37</h4>
-								<p>No. Of campaign</p>
+							<div class="col-md-2 box-round bg-color-scheme-2">
+								<div class="inner-block p-2 d-flex mx-1">
+									<h4>37</h4>
+									<p>No. Of campaign</p>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="row gx-4">
-						<div class="col-6">
-							<div class="box-round bg-white">
-								<div class="d-flex justify-content-between">
-									<h5 class="text-wrap">No. of Contact as per Cities</h5>
-									<span class="text-wrap"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-											height="16" fill="currentColor" class="bi bi-three-dots-vertical"
-											viewBox="0 0 16 16">
-											<path
-												d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+					<div class="row">
+						<div id="brand-overview-contact" class="col-md-6">
+							<div class="col box-round bg-white px-4 py-2 mb-3">
+								<div class="d-flex justify-content-between pb-2 py-2">
+									<h6 class="extra-padding">No. of Contact as per Cities</h6>
+									<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+											<path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
 										</svg></span>
 								</div>
-								<div class="">
+								<div class="px-1">
 									<table class="table">
 										<thead>
 											<tr>
@@ -145,18 +149,15 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-6">
-							<div class="box-round bg-white">
-								<div class="d-flex justify-content-between">
-									<h5 class="text-wrap">No. of Campaign as per Cities</h5>
-									<span class="text-wrap"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-											height="16" fill="currentColor" class="bi bi-three-dots-vertical"
-											viewBox="0 0 16 16">
-											<path
-												d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+						<div id="brand-overview-campaign" class="col-md-6">
+							<div class="col box-round bg-white px-4 py-2 mb-3">
+								<div class="d-flex justify-content-between pb-2 py-2">
+									<h6 class="extra-padding">No. of Campaign as per Cities</h6>
+									<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+											<path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
 										</svg></span>
 								</div>
-								<div class="">
+								<div class="px-1">
 									<table class="table">
 										<thead>
 											<tr>
@@ -185,27 +186,206 @@
 					</div>
 
 				</div>
-				<div class="col-2">
-					<div class="row box-round bg-white p-2 mb-2">
-						<div class="d-flex justify-content-between">
-							<h5>Audience</h5>
-							<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-									class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
-									<path
-										d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+				<div id="brand-audience" class="col-md-2 main-columns">
+					<div class="col box-round bg-white px-4 py-2 mb-3">
+						<div class="d-flex justify-content-between pb-2">
+							<h6 class="extra-padding">Audience</h6>
+							<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+									<path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
 								</svg></span>
 						</div>
+						<div>
+							<img src="./assets/images/graph.png" class="img-fluid" alt="Graph">
+						</div>
 					</div>
-					<div>
-						<canvas id="myChart" width="400" height="400"></canvas>
+					<div class="col box-round bg-white px-4 py-2 mb-3">
+						<div class="d-flex justify-content-between pb-2">
+							<h6 class="extra-padding">Successful Campaigns</h6>
+							<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+									<path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+								</svg></span>
+						</div>
+						<div>
+							<img src="./assets/images/campaign.png" class="img-fluid" alt="Graph">
+						</div>
 					</div>
 				</div>
-				<div class="col-4"></div>
+				<div id="brand-block" class="col-md-4 main-columns">
+					<div class="col box-round bg-white px-4 py-2 mb-3">
+						<div class="d-flex justify-content-between pb-2">
+							<h6 class="extra-padding">Brands</h6>
+							<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+									<path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+								</svg></span>
+						</div>
+						<div class="d-flex box-round bg-color-scheme-2 p-2 align-items-center mb-2">
+							<div class="col-md-3">
+								<div class="bg-white">
+									<img src="./assets/images/loreal-pakistan-logo-black.jpg" class="img-fluid rounded"
+										alt="L'Oreal pakistan">
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="border-end">
+									<p>No. Of contact</p>
+									<h4>1000</h4>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="">
+									<p>No. Of campaign</p>
+									<h4>5</h4>
+								</div>
+							</div>
+							<div class="col-md-1">
+								<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+										<path
+											d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+									</svg></span>
+							</div>
+						</div>
+						<div class="d-flex box-round bg-color-scheme-2 p-2 align-items-center mb-2">
+							<div class="col-md-3">
+								<div class="bg-white">
+									<img src="./assets/images/loreal-pakistan-logo-black.jpg" class="img-fluid rounded"
+										alt="L'Oreal pakistan">
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="border-end">
+									<p>No. Of contact</p>
+									<h4>1000</h4>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="">
+									<p>No. Of campaign</p>
+									<h4>5</h4>
+								</div>
+							</div>
+							<div class="col-md-1">
+								<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+										<path
+											d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+									</svg></span>
+							</div>
+						</div>
+						<div class="d-flex box-round bg-color-scheme-2 p-2 align-items-center mb-2">
+							<div class="col-md-3">
+								<div class="bg-white">
+									<img src="./assets/images/loreal-pakistan-logo-black.jpg" class="img-fluid rounded"
+										alt="L'Oreal pakistan">
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="border-end">
+									<p>No. Of contact</p>
+									<h4>1000</h4>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="">
+									<p>No. Of campaign</p>
+									<h4>5</h4>
+								</div>
+							</div>
+							<div class="col-md-1">
+								<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+										<path
+											d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+									</svg></span>
+							</div>
+						</div>
+						<div class="d-flex box-round bg-color-scheme-2 p-2 align-items-center mb-2">
+							<div class="col-md-3">
+								<div class="bg-white">
+									<img src="./assets/images/loreal-pakistan-logo-black.jpg" class="img-fluid rounded"
+										alt="L'Oreal pakistan">
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="border-end">
+									<p>No. Of contact</p>
+									<h4>1000</h4>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="">
+									<p>No. Of campaign</p>
+									<h4>5</h4>
+								</div>
+							</div>
+							<div class="col-md-1">
+								<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+										<path
+											d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+									</svg></span>
+							</div>
+						</div>
+						<div class="d-flex box-round bg-color-scheme-2 p-2 align-items-center mb-2">
+							<div class="col-md-3">
+								<div class="bg-white">
+									<img src="./assets/images/loreal-pakistan-logo-black.jpg" class="img-fluid rounded"
+										alt="L'Oreal pakistan">
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="border-end">
+									<p>No. Of contact</p>
+									<h4>1000</h4>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="">
+									<p>No. Of campaign</p>
+									<h4>5</h4>
+								</div>
+							</div>
+							<div class="col-md-1">
+								<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+										<path
+											d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+									</svg></span>
+							</div>
+						</div>
+						<!-- <table class="table">
+							<tbody>
+								<tr>
+									<td><img src="./assets/images/loreal-pakistan-logo-black.jpg" class="img-fluid"
+											alt="L'Oreal pakistan"></td>
+									<td>
+										<div class="border-end">
+											<p>No. Of contact</p>
+											<h4>1000</h4>
+										</div>
+									</td>
+									<td>
+										<div class="">
+											<p>No. Of campaign</p>
+											<h4 class="custom-color-secondary">5</h4>
+										</div>
+									</td>
+									<td>
+										<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+												fill="currentColor" class="bi bi-three-dots-vertical"
+												viewBox="0 0 16 16">
+												<path
+													d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+											</svg></span>
+									</td>
+								</tr>
+							</tbody>
+						</table> -->
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-	</div>
-
 
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
 		integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
