@@ -14,53 +14,91 @@
 
 		<div class="container-lg">
 			<div class="row">
-				<div class="col-md-2 border-end align-items-center d-flex">
+				<div class="col-lg-2 border-end align-items-center d-flex">
 					<img src="./assets/images/Loreal Pakistan Logo.png" class="img-fluid" alt="L'Oreal pakistan">
 				</div>
-				<div class="col-md-3 border-end align-items-center d-flex">
+				<div class="col-lg-3 border-end align-items-center d-flex">
 
 					<div class="input-group mb-3">
-						<span class="input-group-text made-transparent" id="basic-addon1"><svg
+						<!-- <span class="input-group-text made-transparent" id="basic-addon1"><svg
 								xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
 								class="bi bi-search" viewBox="0 0 16 16">
 								<path
 									d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
 							</svg></span>
 						<input type="text" class="form-control made-transparent" placeholder="Search for something..."
-							aria-label="Username" aria-describedby="basic-addon1">
+							aria-label="Username" aria-describedby="basic-addon1"> -->
+						<form class="d-flex">
+							<button class="made-transparent" type="submit"><svg
+									xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+									class="bi bi-search" viewBox="0 0 16 16">
+									<path
+										d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+								</svg></span></button>
+							<input class="form-control me-2 made-transparent" type="search"
+								placeholder="Search for something..." aria-label="Search for something...">
+						</form>
 					</div>
 				</div>
-				<div class="col-md-4 border-end align-items-center d-flex">
-					<ul class="nav align-items-center">
+				<div class="col-lg-4 border-end align-items-center d-flex">
+					<!-- <ul class="nav align-items-center">
 						<li class="nav-item">
-							<a class="nav-link custom-color-primary active" aria-current="page" href="#">Dashboard</a>
+							<a class="nav-link nav-inactive active" aria-current="page" href="#">Dashboard</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link custom-color-primary" href="#">Report</a>
+							<a class="nav-link nav-inactive" href="#">Report</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link custom-color-primary" href="#">User Accounts</a>
+							<a class="nav-link nav-inactive" href="#">User Accounts</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link custom-color-primary" href="#">Profile</a>
+							<a class="nav-link nav-inactive" href="#">Profile</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link custom-color-primary" href="#">Logout</a>
+							<a class="nav-link nav-inactive" href="#">Logout</a>
 						</li>
-					</ul>
+					</ul> -->
+					<nav class="navbar navbar-expand-lg navbar-dark bg-light">
+						<div class="nav align-items-center">
+							<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+								data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+								aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+									<li class="nav-item">
+										<a class="nav-link nav-inactive active" aria-current="page" href="#">Home</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link nav-inactive" href="#">Report</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link nav-inactive" href="#">User Accounts</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link nav-inactive" href="#">Profile</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link nav-inactive" href="#">Logout</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
 				</div>
-				<div class="col-md-2 border-end align-items-center d-flex">
+				<div class="col-lg-2 border-end align-items-center d-flex">
 					<div class="row align-items-center d-flex">
-						<div class="col-md-8">
+						<div class="col-lg-8">
 							<div class="text-wrap"><span>Welcome, </span><span id="username">Admin</span></div>
 							<div class="custom-color-primary">Noman Shahid</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-lg-4">
 							<img src="./assets/images/user placeholder.png" class="img-fluid" alt="user placeholder">
 						</div>
 					</div>
 				</div>
-				<div class="col-md-1 align-items-center d-flex made-transparent">
+				<div class="col-lg-1 align-items-center d-flex made-transparent">
 					<div class="">
 						<svg class="icon-header" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
 							fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
@@ -77,8 +115,8 @@
 	<div class="container-fluid bg-color-scheme-2 py-3">
 		<div class="container-lg">
 			<div class="row">
-				<div class="col-md-6 main-columns">
-					<div id="brand-overview" class="col box-round bg-white px-4 py-2 mb-3">
+				<div class="col-lg-5 main-columns">
+					<div id="brand-overview" class="col box-round bg-white px-4 py-2 mb-3 pb-4">
 						<div class="d-flex justify-content-between pb-2">
 							<h6 class="extra-padding">Overview</h6>
 							<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -88,25 +126,25 @@
 								</svg></span>
 						</div>
 						<div class="d-flex justify-content-around">
-							<div class="col-md-2 box-round bg-color-scheme-2">
+							<div class="col-lg-2 box-round bg-color-scheme-2">
 								<div class="inner-block p-2 d-flex mx-1">
 									<h4>100k</h4>
 									<p>No. Of contacts</p>
 								</div>
 							</div>
-							<div class="col-md-2 box-round bg-color-scheme-2">
+							<div class="col-lg-2 box-round bg-color-scheme-2">
 								<div class="inner-block p-2 d-flex mx-1">
 									<h4>20</h4>
 									<p>No. Of cities</p>
 								</div>
 							</div>
-							<div class="col-md-2 box-round bg-color-scheme-2">
+							<div class="col-lg-2 box-round bg-color-scheme-2">
 								<div class="inner-block p-2 d-flex mx-1">
 									<h4>50k</h4>
 									<p>No. Of products</p>
 								</div>
 							</div>
-							<div class="col-md-2 box-round bg-color-scheme-2">
+							<div class="col-lg-2 box-round bg-color-scheme-2">
 								<div class="inner-block p-2 d-flex mx-1">
 									<h4>37</h4>
 									<p>No. Of campaign</p>
@@ -115,18 +153,21 @@
 						</div>
 					</div>
 					<div class="row">
-						<div id="brand-overview-contact" class="col-md-6">
+						<div id="brand-overview-contact" class="col-lg-6">
 							<div class="col box-round bg-white px-4 py-2 mb-3">
 								<div class="d-flex justify-content-between pb-2 py-2">
 									<h6 class="extra-padding">No. of Contact as per Cities</h6>
-									<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
-											<path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+									<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+											fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+											<path
+												d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z">
+											</path>
 										</svg></span>
 								</div>
 								<div class="px-1">
 									<table class="table">
 										<thead>
-											<tr>
+											<tr class="bg-color-scheme-2">
 												<th scope="col">Cities</th>
 												<th scope="col">Total Number</th>
 											</tr>
@@ -149,18 +190,21 @@
 								</div>
 							</div>
 						</div>
-						<div id="brand-overview-campaign" class="col-md-6">
+						<div id="brand-overview-campaign" class="col-lg-6">
 							<div class="col box-round bg-white px-4 py-2 mb-3">
 								<div class="d-flex justify-content-between pb-2 py-2">
 									<h6 class="extra-padding">No. of Campaign as per Cities</h6>
-									<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
-											<path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+									<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+											fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+											<path
+												d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z">
+											</path>
 										</svg></span>
 								</div>
 								<div class="px-1">
 									<table class="table">
 										<thead>
-											<tr>
+											<tr class="bg-color-scheme-2">
 												<th scope="col">Cities</th>
 												<th scope="col">Total Number</th>
 											</tr>
@@ -186,12 +230,15 @@
 					</div>
 
 				</div>
-				<div id="brand-audience" class="col-md-2 main-columns">
+				<div id="brand-audience" class="col-lg-3 main-columns">
 					<div class="col box-round bg-white px-4 py-2 mb-3">
 						<div class="d-flex justify-content-between pb-2">
 							<h6 class="extra-padding">Audience</h6>
-							<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
-									<path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+							<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+									class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+									<path
+										d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z">
+									</path>
 								</svg></span>
 						</div>
 						<div>
@@ -201,8 +248,11 @@
 					<div class="col box-round bg-white px-4 py-2 mb-3">
 						<div class="d-flex justify-content-between pb-2">
 							<h6 class="extra-padding">Successful Campaigns</h6>
-							<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
-									<path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+							<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+									class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+									<path
+										d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z">
+									</path>
 								</svg></span>
 						</div>
 						<div>
@@ -210,34 +260,37 @@
 						</div>
 					</div>
 				</div>
-				<div id="brand-block" class="col-md-4 main-columns">
+				<div id="brand-block" class="col-lg-4 main-columns">
 					<div class="col box-round bg-white px-4 py-2 mb-3">
 						<div class="d-flex justify-content-between pb-2">
 							<h6 class="extra-padding">Brands</h6>
-							<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
-									<path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+							<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+									class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+									<path
+										d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z">
+									</path>
 								</svg></span>
 						</div>
 						<div class="d-flex box-round bg-color-scheme-2 p-2 align-items-center mb-2">
-							<div class="col-md-3">
+							<div class="col-lg-3">
 								<div class="bg-white">
 									<img src="./assets/images/loreal-pakistan-logo-black.jpg" class="img-fluid rounded"
 										alt="L'Oreal pakistan">
 								</div>
 							</div>
-							<div class="col-md-4">
-								<div class="border-end">
+							<div class="col-lg-4 ps-3">
+								<div id="border-right" class="border-end">
 									<p>No. Of contact</p>
 									<h4>1000</h4>
 								</div>
 							</div>
-							<div class="col-md-4">
+							<div class="col-lg-4 ps-3">
 								<div class="">
 									<p>No. Of campaign</p>
 									<h4>5</h4>
 								</div>
 							</div>
-							<div class="col-md-1">
+							<div class="col-lg-1">
 								<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
 										class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
 										<path
@@ -246,25 +299,25 @@
 							</div>
 						</div>
 						<div class="d-flex box-round bg-color-scheme-2 p-2 align-items-center mb-2">
-							<div class="col-md-3">
+							<div class="col-lg-3">
 								<div class="bg-white">
 									<img src="./assets/images/loreal-pakistan-logo-black.jpg" class="img-fluid rounded"
 										alt="L'Oreal pakistan">
 								</div>
 							</div>
-							<div class="col-md-4">
+							<div class="col-lg-4 ps-3">
 								<div class="border-end">
 									<p>No. Of contact</p>
 									<h4>1000</h4>
 								</div>
 							</div>
-							<div class="col-md-4">
+							<div class="col-lg-4 ps-3">
 								<div class="">
 									<p>No. Of campaign</p>
 									<h4>5</h4>
 								</div>
 							</div>
-							<div class="col-md-1">
+							<div class="col-lg-1">
 								<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
 										class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
 										<path
@@ -273,25 +326,25 @@
 							</div>
 						</div>
 						<div class="d-flex box-round bg-color-scheme-2 p-2 align-items-center mb-2">
-							<div class="col-md-3">
+							<div class="col-lg-3">
 								<div class="bg-white">
 									<img src="./assets/images/loreal-pakistan-logo-black.jpg" class="img-fluid rounded"
 										alt="L'Oreal pakistan">
 								</div>
 							</div>
-							<div class="col-md-4">
+							<div class="col-lg-4 ps-3">
 								<div class="border-end">
 									<p>No. Of contact</p>
 									<h4>1000</h4>
 								</div>
 							</div>
-							<div class="col-md-4">
+							<div class="col-lg-4 ps-3">
 								<div class="">
 									<p>No. Of campaign</p>
 									<h4>5</h4>
 								</div>
 							</div>
-							<div class="col-md-1">
+							<div class="col-lg-1">
 								<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
 										class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
 										<path
@@ -300,25 +353,25 @@
 							</div>
 						</div>
 						<div class="d-flex box-round bg-color-scheme-2 p-2 align-items-center mb-2">
-							<div class="col-md-3">
+							<div class="col-lg-3">
 								<div class="bg-white">
 									<img src="./assets/images/loreal-pakistan-logo-black.jpg" class="img-fluid rounded"
 										alt="L'Oreal pakistan">
 								</div>
 							</div>
-							<div class="col-md-4">
+							<div class="col-lg-4 ps-3">
 								<div class="border-end">
 									<p>No. Of contact</p>
 									<h4>1000</h4>
 								</div>
 							</div>
-							<div class="col-md-4">
+							<div class="col-lg-4 ps-3">
 								<div class="">
 									<p>No. Of campaign</p>
 									<h4>5</h4>
 								</div>
 							</div>
-							<div class="col-md-1">
+							<div class="col-lg-1">
 								<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
 										class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
 										<path
@@ -327,25 +380,25 @@
 							</div>
 						</div>
 						<div class="d-flex box-round bg-color-scheme-2 p-2 align-items-center mb-2">
-							<div class="col-md-3">
+							<div class="col-lg-3">
 								<div class="bg-white">
 									<img src="./assets/images/loreal-pakistan-logo-black.jpg" class="img-fluid rounded"
 										alt="L'Oreal pakistan">
 								</div>
 							</div>
-							<div class="col-md-4">
+							<div class="col-lg-4 ps-3">
 								<div class="border-end">
 									<p>No. Of contact</p>
 									<h4>1000</h4>
 								</div>
 							</div>
-							<div class="col-md-4">
+							<div class="col-lg-4 ps-3">
 								<div class="">
 									<p>No. Of campaign</p>
 									<h4>5</h4>
 								</div>
 							</div>
-							<div class="col-md-1">
+							<div class="col-lg-1">
 								<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
 										class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
 										<path
@@ -353,34 +406,6 @@
 									</svg></span>
 							</div>
 						</div>
-						<!-- <table class="table">
-							<tbody>
-								<tr>
-									<td><img src="./assets/images/loreal-pakistan-logo-black.jpg" class="img-fluid"
-											alt="L'Oreal pakistan"></td>
-									<td>
-										<div class="border-end">
-											<p>No. Of contact</p>
-											<h4>1000</h4>
-										</div>
-									</td>
-									<td>
-										<div class="">
-											<p>No. Of campaign</p>
-											<h4 class="custom-color-secondary">5</h4>
-										</div>
-									</td>
-									<td>
-										<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-												fill="currentColor" class="bi bi-three-dots-vertical"
-												viewBox="0 0 16 16">
-												<path
-													d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
-											</svg></span>
-									</td>
-								</tr>
-							</tbody>
-						</table> -->
 					</div>
 				</div>
 			</div>
