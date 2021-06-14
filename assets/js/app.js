@@ -27,6 +27,12 @@ const config = {
     type: 'pie',
     data: data,
     options: {
+        // circumference: 2 * Math.PI,
+        // rotation: -0.8 * Math.PI,
+        animation: {
+            // animateRotate: true,
+            animateScale: true
+        },
         legend: {
             position: 'bottom',
             labels: {
@@ -35,39 +41,18 @@ const config = {
                 padding: 20
             }
         },
-        responsive: true,
+        // responsive: true,
         plugins: {
-
-            // legend: {
-            //     display: true,
-            //     position: 'bottom',
-            // },
-            // align: 'end',
-            // title: {
-            //     display: true,
-            //     text: 'Chart.js Pie Chart',
-            // },
-
-            // datalabels: {
-            //     formatter: Math.round,
-            //     font: {
-            //         weight: 'bold',
-            //         size: 30,
-            //     },
-            //     color: '#ffffff',
-            // },
-
             labels: {
                 render: 'percentage',
-                position: 'border',
+                // position: 'border',
                 precision: 1,
                 showZero: true,
-                fontSize: 30,
+                fontSize: 20,
                 fontColor: '#FFF',
                 fontStyle: 'bold',
                 fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
                 showActualPercentages: true,
-                textMargin: 40,
             }
         },
     },
