@@ -5,7 +5,8 @@
 
 .custom-color-primary,
 h4,
-.nav-inactive.active, .nav-inactive:hover  {
+.nav-inactive.active,
+.nav-inactive:hover {
   color: #ceb183 !important;
 }
 
@@ -22,9 +23,10 @@ h5 {
   color: #917b62 !important;
 }
 
-.bg-color-scheme-2 {
-  /* background-color: #f7f8fa; */
-  background-color: aqua;
+.bg-color-scheme-2,
+body {
+  background-color: #f7f8fa;
+  /* background-color: aqua; */
 }
 
 .box-round {
@@ -67,12 +69,17 @@ table {
 }
 
 #brand-block {
-  max-height: 600px;
+  max-height: 650px;
 }
 
 .bg-color-scheme-2 th {
   border: 0;
 }
+
+.header .border-end {
+  border-right: 1px solid #17130c !important;
+}
+
 
 #brand-overview,
 #brand-audience,
@@ -82,7 +89,49 @@ table {
 }
 
 .container-lg {
-  /* max-width: 1600px !important; */
+  max-width: 1250px !important;
+}
+
+#user-name {
+  font-size: 20px;
+}
+
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: #ceb183;
+  /* background-image: -webkit-linear-gradient(45deg,
+      rgba(255, 255, 255, .2) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, .2) 50%,
+      rgba(255, 255, 255, .2) 75%,
+      transparent 75%,
+      transparent) */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #856b4a;
+}
+
+/* @media screen and (max-width: 576px) {
+  .mobile-image {
+    max-w
+  } 
+} */
+.row.mobile-header {
+  display: none;
 }
 
 /*!
