@@ -38,17 +38,25 @@ const config = {
             labels: {
                 // fontColor: "white",
                 boxWidth: 20,
-                padding: 20
+                padding: 10
             }
         },
         // responsive: true,
+        maintainAspectRatio: false,
+        // scales: {
+        //     yAxes: [{
+        //         ticks: {
+        //             beginAtZero: true
+        //         }
+        //     }]
+        // },
         plugins: {
             labels: {
                 render: 'percentage',
                 // position: 'border',
                 precision: 1,
                 showZero: true,
-                fontSize: 20,
+                fontSize: 15,
                 fontColor: '#FFF',
                 fontStyle: 'bold',
                 fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
